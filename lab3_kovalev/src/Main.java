@@ -6,7 +6,6 @@
 // println(str.repeat(5));
 import java.util.Scanner;
 
-// 11[+] 14[+] 19[+]
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
