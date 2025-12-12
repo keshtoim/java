@@ -41,7 +41,6 @@ public class Server {
         @Override
         public void run() {
             try {
-                // Явно указываем UTF-8 кодировку
                 in = new BufferedReader(new InputStreamReader(socket.getInputStream(), "UTF-8"));
                 out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream(), "UTF-8"), true);
 
@@ -232,4 +231,5 @@ public class Server {
             }
         }
     }
+
 }
